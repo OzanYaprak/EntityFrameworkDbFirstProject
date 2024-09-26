@@ -13,10 +13,10 @@ namespace EntityFrameworkDbFirstProject
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Project2DbEntities : DbContext
+    public partial class DbFirstDbEntities : DbContext
     {
-        public Project2DbEntities()
-            : base("name=Project2DbEntities")
+        public DbFirstDbEntities()
+            : base("name=DbFirstDbEntities")
         {
         }
     
@@ -27,5 +27,6 @@ namespace EntityFrameworkDbFirstProject
     
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<Product> Product { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

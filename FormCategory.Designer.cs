@@ -58,6 +58,7 @@
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "Ekle";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // textBoxCategoryId
             // 
@@ -99,6 +100,7 @@
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -108,6 +110,7 @@
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Guncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSearch
             // 
@@ -126,6 +129,7 @@
             this.btnList.TabIndex = 9;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // FormCategory
             // 
